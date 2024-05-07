@@ -7,7 +7,7 @@ PySide6-uic path_to_form.ui -o path_to_form.py
 
 from PySide6 import QtWidgets
 
-from ui.a_add_ui_form import Ui_MainWindow  # Импортируем класс формы
+from ship_parameters import Ui_MainWindow  # Импортируем класс формы
 
 
 class Window(QtWidgets.QMainWindow):  # наследуемся от того же класса, что и форма в QtDesigner
