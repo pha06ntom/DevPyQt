@@ -1,8 +1,5 @@
-import datetime
 import os
 import sys
-
-from datetime import datetime
 
 from utils import timestamps_handler
 
